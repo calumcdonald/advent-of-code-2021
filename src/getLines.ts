@@ -2,7 +2,7 @@ import fs from "fs";
 import readline from "readline";
 
 const getLines = async (path: string): Promise<string[]> => {
-    const fileStream = fs.createReadStream('src/input/day1.txt');
+    const fileStream = fs.createReadStream(path);
 
     const rl = readline.createInterface({
         input: fileStream,
