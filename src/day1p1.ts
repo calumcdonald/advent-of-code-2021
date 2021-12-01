@@ -1,6 +1,6 @@
 import getLines from "./getLines.js";
 
-const day1 = async (): Promise<number> => {
+const day1p1 = async (): Promise<number> => {
     return getLines('src/input/day1.txt').then((lines) => {
         let count = 0;
         for(let i = 1; i < lines.length; i++){
@@ -10,4 +10,4 @@ const day1 = async (): Promise<number> => {
     });
 }
 
-export default day1;
+export default day1p1;
