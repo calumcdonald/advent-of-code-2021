@@ -1,10 +1,10 @@
-import day1p1 from "./day1p1.js";
-import day1p2 from "./day1p2.js";
+import part1 from "./day2p1.js";
+import part2 from "./day2p2.js";
 
-day1p1().then((result) => {
-    console.log("day 1-1 result: " + result);
+part1().then((result) => {
+    console.log("part 1 result: " + result);
 });
 
-day1p2().then((result) => {
-    console.log("day 1-2 result: " + result);
+part2().then((result) => {
+    console.log("part 2 result: " + result);
 });
