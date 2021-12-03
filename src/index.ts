@@ -1,5 +1,5 @@
-import part1 from "./day2p1.js";
-import part2 from "./day2p2.js";
+import part1 from "./day3p1.js";
+import part2 from "./day3p2.js";
 
 part1().then((result) => {
     console.log("part 1 result: " + result);
